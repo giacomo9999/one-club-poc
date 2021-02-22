@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: chartreuse;
+  background-color: #c5d3e2;
 }
 
 .logo {
@@ -16,19 +16,18 @@
   vertical-align: top;
 }
 
-.navlinks {
+.nav-links {
   list-style: none;
   display: flex;
-  background-color: blue;
 }
 
-.navitem a {
+.nav-item a {
   display: inline-block;
   padding: 10px 15px;
   text-decoration: none;
   color: #acbac9;
 }
 
-.navitem:hover a {
+.nav-item:hover a {
   color: black;
 }
