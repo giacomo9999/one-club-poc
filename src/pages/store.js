@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
-import "./index.module.scss";
-import "fontsource-oswald/300.css";
 
-export default () => {
+const blog = () => {
   return (
     <Layout>
-      <h1>Home Page</h1>
+      <h1>Store Page</h1>
     </Layout>
   );
 };
+
+export default blog;

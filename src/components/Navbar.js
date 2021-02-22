@@ -8,28 +8,27 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <img className={styles.logo} src={oneClubLogo} alt="logo" />
-
       <ul className={styles.navLinks}>
         <li className={styles.navItem}>
-          <Link to="/">AWARDS</Link>
+          <Link to="/awards">AWARDS</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/blog">PROGRAMS</Link>
+          <Link to="/programs">PROGRAMS</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/products">EVENTS</Link>
+          <Link to="/events">EVENTS</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/products">MEMBERSHIPS</Link>
+          <Link to="/memberships">MEMBERSHIPS</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/products">STORE</Link>
+          <Link to="/store">STORE</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/products">JOBS</Link>
+          <Link to="/jobs">JOBS</Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/products">ABOUT</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
       </ul>
     </nav>

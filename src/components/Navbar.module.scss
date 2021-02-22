@@ -1,31 +1,28 @@
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #c5d3e2;
 }
 
 .logo {
-  float: left;
   height: 75px;
 }
 
-.logo img {
-  width: 175px;
-  vertical-align: top;
-}
-
 .nav-links {
-  list-style: none;
+  width: 75%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  list-style: none;
 }
 
 .nav-item a {
-  display: inline-block;
-  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8c9aa9;
   text-decoration: none;
-  color: #acbac9;
+  padding: 20px;
 }
 
 .nav-item:hover a {
