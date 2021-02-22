@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <img className={styles.logo} src={oneClubLogo} alt="logo" />
+
       <ul className={styles.navlinks}>
         <li className={styles.navitem}>
           <Link to="/">AWARDS</Link>
